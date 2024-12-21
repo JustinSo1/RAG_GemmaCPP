@@ -1,0 +1,6 @@
+data/models
+data/dataset/rag_bio/embeddings
+data/dataset/rag_wikipedia/embeddings
+
+.idea/
+.venv
