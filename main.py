@@ -130,7 +130,7 @@ def run_rag_pipeline(model, n_threads, questions, answers, embeddings_name, text
     # !rm -f log_compute.csv
     # logger_fname = f'data/log_compute{n_threads}.csv'
     #    logger_pid = subprocess.Popen(
-    #       ['python', 'log_visualizer/log_gpu_cpu_stats.py',
+    #       ['python', 'experiment_visualizer/log_gpu_cpu_stats.py',
     #         logger_fname,
     #         '--loop', '1',  # Interval between measurements, in seconds (optional, default=1)
     #         ])
